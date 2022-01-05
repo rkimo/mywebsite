@@ -37,29 +37,35 @@
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-
+  <div style="margin: auto;width:450px;padding-top:30px;">
+    <span>2019</span><br>
+    <span>Online art exhibition and pop up series</span>
+    <p>
+        <a href="/assets/release.pdf">Release</a>
+        
+    </p>
+</div>
 
 <div class="portfolio-imgs">
 
-    <div>
-        <span>2019</span><br>
-        <span>Online art exhibition and pop up series</span>
-        <p>
-            <a href="/assets/release.pdf">Release</a>
-            
-        </p>
-    </div>
 
-    <img src="/img/nodes/nodes-1.gif">
-    <img src="/img/nodes/nodes-2.jpg">
-    <img src="/img/nodes/nodes-3.jpg">
-    <img src="/img/nodes/nodes-4.jpg">
-    <img src="/img/nodes/nodes-5.jpg">
-    <img src="/img/nodes/nodes-6.jpg">
-    <img src="/img/nodes/nodes-7.jpg">
-    <img src="/img/nodes/nodes-8.jpg">
-    <img src="/img/nodes/nodes-9.jpg">
-    <img src="/img/nodes/nodes-10.jpg">
+
+
+    <a href="/img/nodes/nodes-1.gif">    <img src="/img/nodes/nodes-1.gif">    </a>
+    <a href="/img/nodes/nodes-2.jpg">    <img src="/img/nodes/nodes-2.jpg">    </a>
+    <a href="/img/nodes/nodes-3.jpg">    <img src="/img/nodes/nodes-3.jpg">    </a>
+    <a href="/img/nodes/nodes-4.jpg">    <img src="/img/nodes/nodes-4.jpg">    </a>
+    <a href="/img/nodes/nodes-5.jpg">    <img src="/img/nodes/nodes-5.jpg">    </a>
+    <a href="/img/nodes/nodes-6.jpg">    <img src="/img/nodes/nodes-6.jpg">    </a>
+    <a href="/img/nodes/nodes-7.jpg">    <img src="/img/nodes/nodes-7.jpg">    </a>
+    <a href="/img/nodes/nodes-8.jpg">    <img src="/img/nodes/nodes-8.jpg">    </a>
+    <a href="/img/nodes/nodes-9.jpg">    <img src="/img/nodes/nodes-9.jpg">    </a>
+    <a href="/img/nodes/nodes-10.jpg">    <img src="/img/nodes/nodes-10.jpg">    </a>
+
+
+
+
+
 </div>
 
 
@@ -110,12 +116,15 @@
             }
             .portfolio-imgs {
             }
-            .portfolio-imgs > * {
+            .portfolio-imgs > * > *{
                 width: 500px;
                 display: block;
                 margin:auto;
                 padding:20px;
             }
+
+
+   
 
             @media only screen and (min-width: 768px) {
                 .all {
@@ -130,6 +139,12 @@
             }
 
             }
+            @media only screen and (max-width: 500px) {
+                .portfolio-imgs > * > * {
+                width: 90vw;
+
+        }
+
 
          
         </style>
